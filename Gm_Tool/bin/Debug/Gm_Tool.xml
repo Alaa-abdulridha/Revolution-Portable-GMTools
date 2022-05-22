@@ -1,0 +1,236 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Gm_Tool
+</name>
+</assembly>
+<members>
+<member name="T:Gm_Tool.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.button_quick_entrance_warrecord_02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.button_quick_entrance_warrecord_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.button_select_big_left_titanium_type02_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.common_button_titanium_infoview_big_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.common_button_titanium_lock_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.common_button_titanium_lock_04">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.common_mark_icon_unknown_middle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.common_mark_menu_chatting_whisper">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.common_mark_monster_type_use_15_devil">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.common_mark_state_pk_normal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.common_mark_titanium_special">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_main_menu_option_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_main_menu_option_02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_all_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_all_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_book_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_book_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_consumption_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_consumption_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_creature_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_creature_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_enhance_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_enhance_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_equip_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_equip_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_etc_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_etc_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_khroo_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_khroo_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_quest_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_quest_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_skillcard_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_tab_copper_inventory_skillcard_03">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_titanium_inventory_repairlist_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_titanium_player_character_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_titanium_player_character_04">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_titanium_player_skill_investment_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_titanium_player_skill_investment_02">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.game_button_titanium_player_trade_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.paper_plane_30pxAd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.paper_plane_30pxnote">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Gm_Tool.My.Resources.Resources.treasure_map_30px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

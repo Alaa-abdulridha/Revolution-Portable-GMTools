@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\netcoreapp3.0\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\netcoreapp3.0\EntityFramework.props')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{406EDF52-7263-4984-BEF7-6926B74F9316}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Gm_Tool.My.MyApplication</StartupObject>
+    <RootNamespace>Gm_Tool</RootNamespace>
+    <AssemblyName>Gm_Tool v1.8</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Gm_Tool v1.8.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Gm_Tool v1.8.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>button_clan_choice_ball_gaia01.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net40\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\..\Desktop\Visual Studio\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib\.net 4.0\Guna.UI.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net40\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.115.5\lib\net40\System.Data.SQLite.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.115.5\lib\net40\System.Data.SQLite.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvancedItem.Designer.vb">
+      <DependentUpon>AdvancedItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdvancedItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="chat.Designer.vb">
+      <DependentUpon>chat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="chat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameMap.Designer.vb">
+      <DependentUpon>GameMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GameMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="items.Designer.vb">
+      <DependentUpon>items.vb</DependentUpon>
+    </Compile>
+    <Compile Include="items.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map.Designer.vb">
+      <DependentUpon>Map.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Map.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monsters.Designer.vb">
+      <DependentUpon>Monsters.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Monsters.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ServerPre.Designer.vb">
+      <DependentUpon>ServerPre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ServerPre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SKILLS.Designer.vb">
+      <DependentUpon>SKILLS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SKILLS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashloading.Designer.vb">
+      <DependentUpon>Splashloading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashloading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StateResource.Designer.vb">
+      <DependentUpon>StateResource.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StateResource.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdvancedItem.resx">
+      <DependentUpon>AdvancedItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chat.resx">
+      <DependentUpon>chat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameMap.resx">
+      <DependentUpon>GameMap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="items.resx">
+      <DependentUpon>items.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Map.resx">
+      <DependentUpon>Map.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monsters.resx">
+      <DependentUpon>Monsters.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerPre.resx">
+      <DependentUpon>ServerPre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SKILLS.resx">
+      <DependentUpon>SKILLS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashloading.resx">
+      <DependentUpon>Splashloading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StateResource.resx">
+      <DependentUpon>StateResource.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_skillcard_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_all_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_all_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_book_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_book_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_consumption_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_consumption_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_creature_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_creature_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_enhance_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_enhance_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_equip_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_equip_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_etc_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_etc_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_khroo_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_khroo_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_quest_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_quest_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_tab_copper_inventory_skillcard_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\common_button_titanium_lock_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\common_button_titanium_lock_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\common_mark_menu_chatting_whisper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper_plane_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper_plane_30pxAd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\common_mark_state_pk_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\common_mark_titanium_special.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_titanium_player_skill_investment_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_titanium_player_trade_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_titanium_inventory_repairlist_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_select_big_left_titanium_type02_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_titanium_player_character_04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_titanium_player_character_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_main_menu_option_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_main_menu_option_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\common_mark_icon_unknown_middle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_quick_entrance_warrecord_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_quick_entrance_warrecord_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\common_mark_monster_type_use_15_devil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treasure_map_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\common_button_titanium_infoview_big_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_button_titanium_player_skill_investment_02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="button_clan_choice_ball_gaia01.ico" />
+    <None Include="Resources\Rappelz_Epic_7.png" />
+    <None Include="Resources\game_button_titanium_inventory_bag_02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lang\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net20\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net20\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net20\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net20\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\netcoreapp3.0\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\netcoreapp3.0\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\netcoreapp3.0\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\netcoreapp3.0\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net40\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net40\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\netcoreapp3.0\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\netcoreapp3.0\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net40\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net40\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
