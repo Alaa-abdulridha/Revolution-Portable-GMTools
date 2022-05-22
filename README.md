@@ -3,7 +3,8 @@
 
  Rappelz Portable GMTools by RevolutionTeam
 
-<p><img src="https://img.shields.io/github/issues/Alaa-abdulridha/Revolution-Portable-GMTools" alt="" />&nbsp;<img src="https://img.shields.io/github/license/Alaa-abdulridha/Revolution-Portable-GMTools" alt="" />&nbsp;</p>
+[![.NET Core Desktop](https://github.com/Alaa-abdulridha/Revolution-Portable-GMTools/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/Alaa-abdulridha/Revolution-Portable-GMTools/actions/workflows/dotnet-desktop.yml)<p><img src="https://img.shields.io/github/issues/Alaa-abdulridha/Revolution-Portable-GMTools" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/github/license/Alaa-abdulridha/Revolution-Portable-GMTools" alt="" />&nbsp;</p>
+
 <p><strong>Version:</strong> 1.8.0</p>
 <p><strong>OS:</strong> Windows 8.x, 10, 11</p>
 <p><strong>Current Itemresource database version:</strong> 9.6</p>
