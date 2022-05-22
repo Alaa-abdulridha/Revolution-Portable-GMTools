@@ -6,6 +6,7 @@
 <p><img src="https://img.shields.io/github/issues/Alaa-abdulridha/Revolution-Portable-GMTools" alt="" />&nbsp;<img src="https://img.shields.io/github/license/Alaa-abdulridha/Revolution-Portable-GMTools" alt="" />&nbsp;</p>
 <p><strong>Version:</strong> 1.8.0</p>
 <p><strong>OS:</strong> Windows 8.x, 10, 11</p>
+<p><strong>Current Itemresource database version:</strong> 9.6</p>
 <p><strong>Supported Languages:</strong> Arabic, English, Russian</p>
 <p>&nbsp;</p>
 <h2 dir="auto">Disclaimer</h2>
