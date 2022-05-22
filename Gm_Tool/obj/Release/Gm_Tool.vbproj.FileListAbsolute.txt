@@ -1,0 +1,30 @@
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\Gm_Tool v1.8.exe.config
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\Gm_Tool v1.8.exe
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\Gm_Tool v1.8.pdb
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\Gm_Tool v1.8.xml
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\EntityFramework.dll
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\Guna.UI.dll
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\System.Data.SQLite.dll
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\EntityFramework.xml
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\Guna.UI.pdb
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\bin\Release\System.Data.SQLite.xml
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.AdvancedItem.resources
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.chat.resources
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.GameMap.resources
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.items.resources
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.Map.resources
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.Monsters.resources
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.Resources.resources
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.ServerPre.resources
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.SKILLS.resources
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.Splashloading.resources
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.StateResource.resources
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.vbproj.GenerateResource.Cache
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool v1.8.exe
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool v1.8.xml
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool v1.8.pdb
+C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.vbprojResolveAssemblyReference.cache

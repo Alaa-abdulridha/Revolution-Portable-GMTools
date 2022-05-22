@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button_quick_entrance_warrecord_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_quick_entrance_warrecord_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_quick_entrance_warrecord_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_quick_entrance_warrecord_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_select_big_left_titanium_type02_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_select_big_left_titanium_type02_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="common_button_titanium_infoview_big_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\common_button_titanium_infoview_big_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="common_button_titanium_lock_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\common_button_titanium_lock_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="common_button_titanium_lock_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\common_button_titanium_lock_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="common_mark_icon_unknown_middle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\common_mark_icon_unknown_middle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="common_mark_menu_chatting_whisper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\common_mark_menu_chatting_whisper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="common_mark_monster_type_use_15_devil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\common_mark_monster_type_use_15_devil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="common_mark_state_pk_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\common_mark_state_pk_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="common_mark_titanium_special" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\common_mark_titanium_special.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_main_menu_option_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_main_menu_option_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_main_menu_option_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_main_menu_option_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_all_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_all_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_all_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_all_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_book_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_book_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_book_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_book_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_consumption_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_consumption_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_consumption_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_consumption_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_creature_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_creature_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_creature_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_creature_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_enhance_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_enhance_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_enhance_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_enhance_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_equip_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_equip_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_equip_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_equip_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_etc_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_etc_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_etc_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_etc_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_khroo_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_khroo_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_khroo_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_khroo_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_quest_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_quest_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_quest_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_quest_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_skillcard_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_skillcard_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_tab_copper_inventory_skillcard_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_tab_copper_inventory_skillcard_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_titanium_inventory_bag_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_titanium_inventory_bag_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_titanium_inventory_repairlist_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_titanium_inventory_repairlist_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_titanium_player_character_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_titanium_player_character_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_titanium_player_character_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_titanium_player_character_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_titanium_player_skill_investment_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_titanium_player_skill_investment_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_titanium_player_skill_investment_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_titanium_player_skill_investment_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_button_titanium_player_trade_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_button_titanium_player_trade_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paper_plane_30pxAd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paper_plane_30pxAd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paper_plane_30pxnote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paper_plane_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="treasure_map_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\treasure_map_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
