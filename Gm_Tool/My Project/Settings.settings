@@ -11,5 +11,12 @@
     <Setting Name="LangSetting" Type="System.String" Scope="User">
       <Value Profile="(Default)">En</Value>
     </Setting>
+    <Setting Name="txtremove" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;size:9&gt;
+&lt;increase type&gt;
+&lt;System&gt;
+&lt;Event Only&gt;
+&lt;Combined item&gt;</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
