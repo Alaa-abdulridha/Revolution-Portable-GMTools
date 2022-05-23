@@ -41,11 +41,17 @@ Public Class StateResource
         While SQLiteReader.Read()
             Dim location As String = Application.StartupPath & "\images\" & SQLiteReader("icon").ToString & ".jpg"
             If File.Exists(location) Then
-
-                dt.Rows.Add(SQLiteReader("code").ToString, SQLiteReader("ID").ToString, SQLiteReader("name").ToString, SQLiteReader("name_id").ToString, Image.FromFile(location))
+                Dim name As String = SQLiteReader("name").ToString
+                For tt As Integer = 0 To ServerPre.txtremove.Lines.Length - 1
+                    name = name.Replace(ServerPre.txtremove.Lines(tt), "")
+                Next
+                dt.Rows.Add(SQLiteReader("code").ToString, SQLiteReader("ID").ToString, name, SQLiteReader("name_id").ToString, Image.FromFile(location))
             Else
-
-                dt.Rows.Add(SQLiteReader("code").ToString, SQLiteReader("ID").ToString, SQLiteReader("name").ToString, SQLiteReader("name_id").ToString, My.Resources.common_mark_icon_unknown_middle)
+                Dim name As String = SQLiteReader("name").ToString
+                For tt As Integer = 0 To ServerPre.txtremove.Lines.Length - 1
+                    name = name.Replace(ServerPre.txtremove.Lines(tt), "")
+                Next
+                dt.Rows.Add(SQLiteReader("code").ToString, SQLiteReader("ID").ToString, name, SQLiteReader("name_id").ToString, My.Resources.common_mark_icon_unknown_middle)
             End If
 
         End While
@@ -55,7 +61,8 @@ Public Class StateResource
         SQLiteConn.Close()
         bs.DataSource = dt
         DGV1.DataSource = dt
-
+        DGV1.Columns("ID").Width = 40
+        DGV1.Columns("icon").Width = 40
 
         DGV1.Columns("code").Visible = False
         DGV1.Columns("name_id").Visible = False

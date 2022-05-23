@@ -12,7 +12,17 @@ Public Class items
     Dim bs As New BindingSource
     Dim dt As New DataTable
 
+
+    Dim Gaia() As String = {"متدرب اجوريا", "مقاتل", "جلمود", "وحشي", "الفولاذي", "القناص", "مغوار", "صنديد", "سيد الوحوش", "المدجج", "امير النبال", "الامبراطور", "الباسل", "سيد الكواسر"}
+    Dim Asura() As String = {"متدرب ارماد", "المناور", "الساحر", "كابوس", "سفاح", "سيد الاظلام", "ساحر ظلامي", "المحطم", "سيد البراري", "الشبح", "محارب الغسق", "امير الظلال", "المتربص", "سيد الادغال"}
+    Dim Deva() As String = {"متدرب امانيس", "مدافع", "مسعف", "مروض", "متراس", "فارس", "طبيب", "حكيم", "مخلب", "مدرع", "نبيل", "سيد حكماء", "مستشار", "الجارح"}
+
+    Dim msg1 As String = "حدث خطأ - اسم اللاعب او القيمة المراد اضافتها فارغة"
+    Dim msg2 As String = "هل تريد المرافق مروض"
+    Dim msg3 As String = "هل تريد فتح مهارات المرافق للشخصية المحددة؟"
+
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
         Me.Close()
     End Sub
 
@@ -311,7 +321,7 @@ Public Class items
             Clipboard.SetText("/run sv(""lv""," & txtLV.Text & ",""" & comboChars.SelectedItem.ToString & """)")
             txtclip.Text = Clipboard.GetText()
         Else
-            MsgBox("حدث خطأ - اسم اللاعب او القيمة المراد اضافتها فارغة")
+            MsgBox(msg1)
         End If
     End Sub
 
@@ -320,7 +330,7 @@ Public Class items
             Clipboard.SetText("/run sv(""jlv""," & txtJLV.Text & ",""" & comboChars.SelectedItem.ToString & """)")
             txtclip.Text = Clipboard.GetText()
         Else
-            MsgBox("حدث خطأ - اسم اللاعب او القيمة المراد اضافتها فارغة")
+            MsgBox(msg1)
         End If
     End Sub
 
@@ -329,7 +339,7 @@ Public Class items
             Clipboard.SetText("/run sv(""tp""," & txtTP.Text & ",""" & comboChars.SelectedItem.ToString & """)")
             txtclip.Text = Clipboard.GetText()
         Else
-            MsgBox("حدث خطأ - اسم اللاعب او القيمة المراد اضافتها فارغة")
+            MsgBox(msg1)
         End If
     End Sub
 
@@ -338,7 +348,7 @@ Public Class items
             Clipboard.SetText("/run sv(""jp""," & txtJP.Text & ",""" & comboChars.SelectedItem.ToString & """)")
             txtclip.Text = Clipboard.GetText()
         Else
-            MsgBox("حدث خطأ - اسم اللاعب او القيمة المراد اضافتها فارغة")
+            MsgBox(msg1)
         End If
     End Sub
 
@@ -347,7 +357,7 @@ Public Class items
             Clipboard.SetText("/run sv(""ap""," & txtAP.Text & ",""" & comboChars.SelectedItem.ToString & """)")
             txtclip.Text = Clipboard.GetText()
         Else
-            MsgBox("حدث خطأ - اسم اللاعب او القيمة المراد اضافتها فارغة")
+            MsgBox(msg1)
         End If
     End Sub
 
@@ -356,7 +366,7 @@ Public Class items
             Clipboard.SetText("/run sv(""p""," & txtBP.Text & ",""" & comboChars.SelectedItem.ToString & """)")
             txtclip.Text = Clipboard.GetText()
         Else
-            MsgBox("حدث خطأ - اسم اللاعب او القيمة المراد اضافتها فارغة")
+            MsgBox(msg1)
         End If
     End Sub
 
@@ -365,7 +375,7 @@ Public Class items
             Clipboard.SetText("/run insert_gold(" & txtR.Text & ",""" & comboChars.SelectedItem.ToString & """)")
             txtclip.Text = Clipboard.GetText()
         Else
-            MsgBox("حدث خطأ - اسم اللاعب او القيمة المراد اضافتها فارغة")
+            MsgBox(msg1)
         End If
     End Sub
 
@@ -383,7 +393,7 @@ Public Class items
         Dim Qty As Integer = txtitemqty.Text
 
         If DGV1.Rows(RowAt).Cells("Group").Value = 13 Then
-            If Not MsgBox("هل تريد المرافق مروض", vbYesNo) = MsgBoxResult.Yes Then
+            If Not MsgBox(msg2, vbYesNo) = MsgBoxResult.Yes Then
                 emptyPet = True
             End If
             itempet = "-2147483648"
@@ -433,9 +443,6 @@ Public Class items
     End Sub
 
     Private Sub comboRace_SelectedIndexChanged(sender As Object, e As EventArgs) Handles comboRace.SelectedIndexChanged
-        Dim Gaia() As String = {"متدرب اجوريا", "مقاتل", "جلمود", "وحشي", "الفولاذي", "القناص", "مغوار", "صنديد", "سيد الوحوش", "المدجج", "امير النبال", "الامبراطور", "الباسل", "سيد الكواسر"}
-        Dim Asura() As String = {"متدرب ارماد", "المناور", "الساحر", "كابوس", "سفاح", "سيد الاظلام", "ساحر ظلامي", "المحطم", "سيد البراري", "الشبح", "محارب الغسق", "امير الظلال", "المتربص", "سيد الادغال"}
-        Dim Deva() As String = {"متدرب امانيس", "مدافع", "مسعف", "مروض", "متراس", "فارس", "طبيب", "حكيم", "مخلب", "مدرع", "نبيل", "سيد حكماء", "مستشار", "الجارح"}
 
         If comboRace.SelectedIndex = 0 Then
             comboJob.Items.Clear()
@@ -491,11 +498,17 @@ Public Class items
             counter += 1
             Dim location As String = Application.StartupPath & "\images\" & SQLiteReader("ICON").ToString & ".jpg"
             If File.Exists(location) Then
-
-                dt.Rows.Add(SQLiteReader("id").ToString, SQLiteReader("name").ToString, SQLiteReader("name_id").ToString, SQLiteReader("rank").ToString, SQLiteReader("type").ToString, SQLiteReader("group").ToString, SQLiteReader("wear").ToString, SQLiteReader("L_Deva").ToString, SQLiteReader("L_Gaia").ToString, SQLiteReader("L_Asura").ToString, SQLiteReader("L_F").ToString, SQLiteReader("L_H").ToString, SQLiteReader("L_M").ToString, SQLiteReader("L_S").ToString, Image.FromFile(location))
+                Dim name As String = SQLiteReader("name").ToString
+                For tt As Integer = 0 To ServerPre.txtremove.Lines.Length - 1
+                    name = name.Replace(ServerPre.txtremove.Lines(tt), "")
+                Next
+                dt.Rows.Add(SQLiteReader("id").ToString, name, SQLiteReader("name_id").ToString, SQLiteReader("rank").ToString, SQLiteReader("type").ToString, SQLiteReader("group").ToString, SQLiteReader("wear").ToString, SQLiteReader("L_Deva").ToString, SQLiteReader("L_Gaia").ToString, SQLiteReader("L_Asura").ToString, SQLiteReader("L_F").ToString, SQLiteReader("L_H").ToString, SQLiteReader("L_M").ToString, SQLiteReader("L_S").ToString, Image.FromFile(location))
             Else
-
-                dt.Rows.Add(SQLiteReader("id").ToString, SQLiteReader("name").ToString, SQLiteReader("name_id").ToString, SQLiteReader("rank").ToString, SQLiteReader("type").ToString, SQLiteReader("group").ToString, SQLiteReader("wear").ToString, SQLiteReader("L_Deva").ToString, SQLiteReader("L_Gaia").ToString, SQLiteReader("L_Asura").ToString, SQLiteReader("L_F").ToString, SQLiteReader("L_H").ToString, SQLiteReader("L_M").ToString, SQLiteReader("L_S").ToString, My.Resources.common_mark_icon_unknown_middle)
+                Dim name As String = SQLiteReader("name").ToString
+                For tt As Integer = 0 To ServerPre.txtremove.Lines.Length - 1
+                    name = name.Replace(ServerPre.txtremove.Lines(tt), "")
+                Next
+                dt.Rows.Add(SQLiteReader("id").ToString, name, SQLiteReader("name_id").ToString, SQLiteReader("rank").ToString, SQLiteReader("type").ToString, SQLiteReader("group").ToString, SQLiteReader("wear").ToString, SQLiteReader("L_Deva").ToString, SQLiteReader("L_Gaia").ToString, SQLiteReader("L_Asura").ToString, SQLiteReader("L_F").ToString, SQLiteReader("L_H").ToString, SQLiteReader("L_M").ToString, SQLiteReader("L_S").ToString, My.Resources.common_mark_icon_unknown_middle)
             End If
         End While
 
@@ -532,7 +545,7 @@ Public Class items
     End Sub
 
     Private Sub btnPetSkills_Click(sender As Object, e As EventArgs) Handles btnPetSkills.Click
-        If MsgBox("هل تريد فتح مهارات المرافق للشخصية المحددة؟", vbYesNo) = MsgBoxResult.Yes Then
+        If MsgBox(msg3, vbYesNo) = MsgBoxResult.Yes Then
             Clipboard.SetText("/run learn_creature_all_skill(""" & comboChars.SelectedItem.ToString & """)")
             txtclip.Text = Clipboard.GetText()
         Else
@@ -563,6 +576,31 @@ Public Class items
                     ToolTip1.SetToolTip(lbl, LangString("Language")(0)(lbl.Tag))
                 End If
             Next
+            'classes
+
+            Dim newGaia, newAsura, newDeva As New List(Of String)
+            For newtxt As Integer = 10078 To 10119
+                If newtxt < 10092 Then
+                    newGaia.Add(LangString("Language")(0)(newtxt))
+                ElseIf newtxt < 10106
+                    newAsura.Add(LangString("Language")(0)(newtxt))
+                Else
+                    newDeva.Add(LangString("Language")(0)(newtxt))
+                End If
+            Next
+            Gaia = newGaia.ToArray
+            Asura = newAsura.ToArray
+            Deva = newDeva.ToArray
+            comboRace.Items.Clear()
+            comboRace.Items.Add(LangString("Language")(0)("10038"))
+            comboRace.Items.Add(LangString("Language")(0)("10039"))
+            comboRace.Items.Add(LangString("Language")(0)("10040"))
+            comboRace.SelectedIndex = 0
+
+            'msg
+            msg1 = LangString("Language")(0)("10120")
+            msg2 = LangString("Language")(0)("10121")
+            msg3 = LangString("Language")(0)("10122")
         End If
     End Sub
     Private Sub lbClass_Click(sender As Object, e As EventArgs) Handles lbClass.Click

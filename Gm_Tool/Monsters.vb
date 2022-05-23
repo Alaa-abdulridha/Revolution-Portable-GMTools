@@ -37,7 +37,11 @@ Public Class Monsters
 
         SQLiteReader = SQLitecmd.ExecuteReader()
         While SQLiteReader.Read()
-            dt.Rows.Add(SQLiteReader("code").ToString, SQLiteReader("ID").ToString, SQLiteReader("name").ToString, SQLiteReader("name_id").ToString)
+            Dim name As String = SQLiteReader("name").ToString
+            For tt As Integer = 0 To ServerPre.txtremove.Lines.Length - 1
+                name = name.Replace(ServerPre.txtremove.Lines(tt), "")
+            Next
+            dt.Rows.Add(SQLiteReader("code").ToString, SQLiteReader("ID").ToString, name, SQLiteReader("name_id").ToString)
         End While
 
         SQLiteReader.Close()

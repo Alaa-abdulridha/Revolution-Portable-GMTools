@@ -27,4 +27,35 @@ C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release
 C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool v1.8.exe
 C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool v1.8.xml
 C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool v1.8.pdb
-C:\Users\sdark\Documents\Visual Studio 2015\Projects\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.vbprojResolveAssemblyReference.cache
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\Gm_Tool v1.8.exe.config
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\Gm_Tool v1.8.exe
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\Gm_Tool v1.8.pdb
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\Gm_Tool v1.8.xml
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\EntityFramework.dll
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\System.Data.SQLite.dll
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\EntityFramework.xml
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\Guna.UI.pdb
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\bin\Release\System.Data.SQLite.xml
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.vbproj.AssemblyReference.cache
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.vbproj.SuggestedBindingRedirects.cache
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.AdvancedItem.resources
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.chat.resources
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.GameMap.resources
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.items.resources
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.Map.resources
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.Monsters.resources
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.Resources.resources
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.ServerPre.resources
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.SKILLS.resources
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.Splashloading.resources
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.StateResource.resources
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.vbproj.GenerateResource.cache
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.vbproj.CoreCompileInputs.cache
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool.vbproj.CopyComplete
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool v1.8.exe
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool v1.8.xml
+C:\Users\4l44\Desktop\Gm_Tool (2)\Gm_Tool\Gm_Tool\obj\Release\Gm_Tool v1.8.pdb

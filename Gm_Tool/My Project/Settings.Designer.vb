@@ -89,6 +89,18 @@ Namespace My
                 Me("LangSetting") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("<size:9>"&Global.Microsoft.VisualBasic.ChrW(10)&"<increase type>"&Global.Microsoft.VisualBasic.ChrW(10)&"<System>"&Global.Microsoft.VisualBasic.ChrW(10)&"<Event Only>"&Global.Microsoft.VisualBasic.ChrW(10)&"<Combined item>")>  _
+        Public Property txtremove() As String
+            Get
+                Return CType(Me("txtremove"),String)
+            End Get
+            Set
+                Me("txtremove") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

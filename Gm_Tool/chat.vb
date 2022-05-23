@@ -2,6 +2,11 @@
 Imports System.Web.Script.Serialization
 
 Public Class chat
+    Dim msg1 As String = "يرجى كتابة رسالة في حقل النص"
+    Dim msg2 As String = "يرجى التاكد من مدة كتم اللاعب واسم اللاعب"
+    Dim msg3 As String = "يرجى كتابة اسم الشخص المراد طرده من السيرفر"
+    Dim msg4 As String = "يرجى اختيار طريقة اعلان عدد اللاعبين في اللعبة"
+
     Private Sub chklock_CheckedChanged(sender As Object, e As EventArgs) Handles chklock.CheckedChanged
         If chklock.Checked = True Then
             Me.TopMost = True
@@ -37,7 +42,7 @@ Public Class chat
             End If
             txtAd.Text = ""
         Else
-            MsgBox("يرجى كتابة رسالة في حقل النص")
+            MsgBox(msg1)
             txtAd.Focus()
         End If
     End Sub
@@ -77,7 +82,7 @@ Public Class chat
                 Clipboard.SetText("/block_chat " + txtnameMute.Text + " " + (time * 60 * 24 * 7).ToString)
             End If
         Else
-            MsgBox("يرجى التاكد من مدة كتم اللاعب واسم اللاعب")
+            MsgBox(msg2)
         End If
     End Sub
 
@@ -85,7 +90,7 @@ Public Class chat
         If txtnameMute.Text <> "" Then
             Clipboard.SetText("/run kick(""" + txtnameMute.Text + """)")
         Else
-            MsgBox("يرجى كتابة اسم الشخص المراد طرده من السيرفر")
+            MsgBox(msg3)
             txtnameMute.Focus()
         End If
     End Sub
@@ -104,7 +109,7 @@ Public Class chat
             'ملاحظة خاصة
             Clipboard.SetText("/run private_notice(""Player Online""..get_env(""game.user_count"").."" Only"")")
         Else
-            MsgBox("يرجى اختيار طريقة اعلان عدد اللاعبين في اللعبة")
+            MsgBox(msg4)
         End If
     End Sub
     Sub translate()
@@ -131,6 +136,11 @@ Public Class chat
                     ToolTip1.SetToolTip(lbl, LangString("Language")(0)("T" & lbl.Tag))
                 End If
             Next
+            'msg
+            msg1 = LangString("Language")(0)("10123")
+            msg2 = LangString("Language")(0)("10124")
+            msg3 = LangString("Language")(0)("10125")
+            msg4 = LangString("Language")(0)("10126")
         End If
     End Sub
 

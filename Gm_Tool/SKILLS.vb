@@ -38,10 +38,17 @@ Public Class SKILLS
         While SQLiteReader.Read()
             Dim location As String = Application.StartupPath & "\Skills\" & SQLiteReader("icon").ToString & ".jpg"
             If File.Exists(location) Then
-
-                dt.Rows.Add(SQLiteReader("ID").ToString, SQLiteReader("name").ToString, Image.FromFile(location))
+                Dim name As String = SQLiteReader("name").ToString
+                For tt As Integer = 0 To ServerPre.txtremove.Lines.Length - 1
+                    name = name.Replace(ServerPre.txtremove.Lines(tt), "")
+                Next
+                dt.Rows.Add(SQLiteReader("ID").ToString, name, Image.FromFile(location))
             Else
-                dt.Rows.Add(SQLiteReader("ID").ToString, SQLiteReader("name").ToString, My.Resources.common_mark_icon_unknown_middle)
+                Dim name As String = SQLiteReader("name").ToString
+                For tt As Integer = 0 To ServerPre.txtremove.Lines.Length - 1
+                    name = name.Replace(ServerPre.txtremove.Lines(tt), "")
+                Next
+                dt.Rows.Add(SQLiteReader("ID").ToString, name, My.Resources.common_mark_icon_unknown_middle)
             End If
 
         End While
@@ -51,6 +58,8 @@ Public Class SKILLS
         SQLiteConn.Close()
         bs.DataSource = dt
         DGV1.DataSource = dt
+        DGV1.Columns("ID").Width = 60
+        DGV1.Columns("ICON").Width = 55
 
     End Sub
 
