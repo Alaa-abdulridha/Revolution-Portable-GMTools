@@ -42,12 +42,16 @@ Partial Class ServerPre
         Me.btnClose = New System.Windows.Forms.PictureBox()
         Me.btnMini = New System.Windows.Forms.PictureBox()
         Me.GunaDragControl1 = New Guna.UI.WinForms.GunaDragControl(Me.components)
+        Me.txtremove = New System.Windows.Forms.RichTextBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.pnlBody.SuspendLayout()
         Me.pnlbody2.SuspendLayout()
         Me.pnlTitle.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnMini, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'pnlBody
@@ -58,11 +62,13 @@ Partial Class ServerPre
         Me.pnlBody.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlBody.Location = New System.Drawing.Point(1, 1)
         Me.pnlBody.Name = "pnlBody"
-        Me.pnlBody.Size = New System.Drawing.Size(301, 349)
+        Me.pnlBody.Size = New System.Drawing.Size(301, 681)
         Me.pnlBody.TabIndex = 1
         '
         'pnlbody2
         '
+        Me.pnlbody2.Controls.Add(Me.Label4)
+        Me.pnlbody2.Controls.Add(Me.Panel1)
         Me.pnlbody2.Controls.Add(Me.Label3)
         Me.pnlbody2.Controls.Add(Me.txtNewLang)
         Me.pnlbody2.Controls.Add(Me.addlang)
@@ -77,7 +83,7 @@ Partial Class ServerPre
         Me.pnlbody2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlbody2.Location = New System.Drawing.Point(0, 31)
         Me.pnlbody2.Name = "pnlbody2"
-        Me.pnlbody2.Size = New System.Drawing.Size(301, 318)
+        Me.pnlbody2.Size = New System.Drawing.Size(301, 650)
         Me.pnlbody2.TabIndex = 1
         '
         'Label3
@@ -331,12 +337,47 @@ Partial Class ServerPre
         '
         Me.GunaDragControl1.TargetControl = Me.pnlTitle
         '
+        'txtremove
+        '
+        Me.txtremove.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(29, Byte), Integer), CType(CType(32, Byte), Integer))
+        Me.txtremove.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtremove.DataBindings.Add(New System.Windows.Forms.Binding("Text", Global.Gm_Tool.My.MySettings.Default, "txtremove", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.txtremove.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.txtremove.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txtremove.Location = New System.Drawing.Point(1, 1)
+        Me.txtremove.Name = "txtremove"
+        Me.txtremove.Size = New System.Drawing.Size(277, 263)
+        Me.txtremove.TabIndex = 35
+        Me.txtremove.Text = Global.Gm_Tool.My.MySettings.Default.txtremove
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(140, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.txtremove)
+        Me.Panel1.Location = New System.Drawing.Point(12, 371)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Padding = New System.Windows.Forms.Padding(1)
+        Me.Panel1.Size = New System.Drawing.Size(279, 265)
+        Me.Panel1.TabIndex = 36
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(12, 353)
+        Me.Label4.Name = "Label4"
+        Me.Label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label4.Size = New System.Drawing.Size(188, 15)
+        Me.Label4.TabIndex = 37
+        Me.Label4.Text = "Text you Don't want to see in Data"
+        '
         'ServerPre
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(55, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(303, 351)
+        Me.ClientSize = New System.Drawing.Size(303, 683)
         Me.Controls.Add(Me.pnlBody)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "ServerPre"
@@ -350,6 +391,7 @@ Partial Class ServerPre
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnMini, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -372,4 +414,7 @@ Partial Class ServerPre
     Friend WithEvents addlang As Guna.UI.WinForms.GunaButton
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents txtremove As RichTextBox
 End Class

@@ -23,9 +23,9 @@ Partial Class StateResource
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(StateResource))
         Me.pnlBody = New System.Windows.Forms.Panel()
         Me.pnlbody2 = New System.Windows.Forms.Panel()
@@ -71,7 +71,7 @@ Partial Class StateResource
         Me.pnlBody.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlBody.Location = New System.Drawing.Point(1, 1)
         Me.pnlBody.Name = "pnlBody"
-        Me.pnlBody.Size = New System.Drawing.Size(349, 633)
+        Me.pnlBody.Size = New System.Drawing.Size(479, 633)
         Me.pnlBody.TabIndex = 2
         '
         'pnlbody2
@@ -81,41 +81,41 @@ Partial Class StateResource
         Me.pnlbody2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlbody2.Location = New System.Drawing.Point(0, 31)
         Me.pnlbody2.Name = "pnlbody2"
-        Me.pnlbody2.Size = New System.Drawing.Size(349, 602)
+        Me.pnlbody2.Size = New System.Drawing.Size(479, 602)
         Me.pnlbody2.TabIndex = 1
         '
         'DGV1
         '
         Me.DGV1.AllowUserToAddRows = False
         Me.DGV1.AllowUserToDeleteRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(21, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(42, Byte), Integer))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(173, Byte), Integer))
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(0, Byte), Integer))
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(21, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(42, Byte), Integer))
-        Me.DGV1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(CType(CType(21, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(42, Byte), Integer))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(173, Byte), Integer))
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(0, Byte), Integer))
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(21, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(42, Byte), Integer))
+        Me.DGV1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
         Me.DGV1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DGV1.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(21, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(42, Byte), Integer))
         Me.DGV1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.DGV1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
         Me.DGV1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(29, Byte), Integer), CType(CType(32, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(173, Byte), Integer))
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGV1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(29, Byte), Integer), CType(CType(32, Byte), Integer))
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI", 10.5!)
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(173, Byte), Integer))
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGV1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
         Me.DGV1.ColumnHeadersHeight = 32
         Me.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(21, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(42, Byte), Integer))
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(173, Byte), Integer))
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(0, Byte), Integer))
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(21, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(42, Byte), Integer))
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DGV1.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(CType(CType(21, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(42, Byte), Integer))
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 10.5!)
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(173, Byte), Integer))
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(0, Byte), Integer))
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(21, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(42, Byte), Integer))
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DGV1.DefaultCellStyle = DataGridViewCellStyle6
         Me.DGV1.Dock = System.Windows.Forms.DockStyle.Left
         Me.DGV1.EnableHeadersVisualStyles = False
         Me.DGV1.GridColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(140, Byte), Integer), CType(CType(139, Byte), Integer))
@@ -125,7 +125,7 @@ Partial Class StateResource
         Me.DGV1.RowHeadersVisible = False
         Me.DGV1.RowTemplate.Height = 35
         Me.DGV1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DGV1.Size = New System.Drawing.Size(328, 376)
+        Me.DGV1.Size = New System.Drawing.Size(466, 376)
         Me.DGV1.TabIndex = 28
         Me.DGV1.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna
         Me.DGV1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(21, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(42, Byte), Integer))
@@ -167,7 +167,7 @@ Partial Class StateResource
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.Panel1.Location = New System.Drawing.Point(0, 376)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(349, 226)
+        Me.Panel1.Size = New System.Drawing.Size(479, 226)
         Me.Panel1.TabIndex = 27
         '
         'lbBuff
@@ -176,7 +176,7 @@ Partial Class StateResource
         Me.lbBuff.Cursor = System.Windows.Forms.Cursors.Hand
         Me.lbBuff.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.lbBuff.ForeColor = System.Drawing.Color.White
-        Me.lbBuff.Location = New System.Drawing.Point(37, 182)
+        Me.lbBuff.Location = New System.Drawing.Point(40, 184)
         Me.lbBuff.Name = "lbBuff"
         Me.lbBuff.Size = New System.Drawing.Size(230, 26)
         Me.lbBuff.TabIndex = 63
@@ -195,7 +195,7 @@ Partial Class StateResource
         Me.txtBuffTime.FocusedForeColor = System.Drawing.Color.White
         Me.txtBuffTime.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.txtBuffTime.ForeColor = System.Drawing.Color.White
-        Me.txtBuffTime.Location = New System.Drawing.Point(37, 115)
+        Me.txtBuffTime.Location = New System.Drawing.Point(40, 117)
         Me.txtBuffTime.Name = "txtBuffTime"
         Me.txtBuffTime.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtBuffTime.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -211,7 +211,7 @@ Partial Class StateResource
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Padding = New System.Windows.Forms.Padding(2, 2, 4, 2)
-        Me.Panel2.Size = New System.Drawing.Size(349, 36)
+        Me.Panel2.Size = New System.Drawing.Size(479, 36)
         Me.Panel2.TabIndex = 34
         '
         'PictureBox1
@@ -237,11 +237,11 @@ Partial Class StateResource
         Me.txtBuffSearch.FocusedForeColor = System.Drawing.Color.White
         Me.txtBuffSearch.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.txtBuffSearch.ForeColor = System.Drawing.Color.White
-        Me.txtBuffSearch.Location = New System.Drawing.Point(35, 2)
+        Me.txtBuffSearch.Location = New System.Drawing.Point(40, 2)
         Me.txtBuffSearch.Name = "txtBuffSearch"
         Me.txtBuffSearch.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtBuffSearch.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.txtBuffSearch.Size = New System.Drawing.Size(310, 32)
+        Me.txtBuffSearch.Size = New System.Drawing.Size(435, 32)
         Me.txtBuffSearch.TabIndex = 28
         '
         'lbBuffTime
@@ -249,7 +249,7 @@ Partial Class StateResource
         Me.lbBuffTime.AutoSize = True
         Me.lbBuffTime.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbBuffTime.ForeColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(173, Byte), Integer))
-        Me.lbBuffTime.Location = New System.Drawing.Point(272, 121)
+        Me.lbBuffTime.Location = New System.Drawing.Point(275, 123)
         Me.lbBuffTime.Name = "lbBuffTime"
         Me.lbBuffTime.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.lbBuffTime.Size = New System.Drawing.Size(59, 15)
@@ -262,7 +262,7 @@ Partial Class StateResource
         Me.lbBuffType.AutoSize = True
         Me.lbBuffType.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbBuffType.ForeColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(173, Byte), Integer))
-        Me.lbBuffType.Location = New System.Drawing.Point(272, 55)
+        Me.lbBuffType.Location = New System.Drawing.Point(275, 57)
         Me.lbBuffType.Name = "lbBuffType"
         Me.lbBuffType.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.lbBuffType.Size = New System.Drawing.Size(53, 15)
@@ -282,7 +282,7 @@ Partial Class StateResource
         Me.comboBufftype.ForeColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(173, Byte), Integer))
         Me.comboBufftype.FormattingEnabled = True
         Me.comboBufftype.Items.AddRange(New Object() {"اضافة بف للشخصية", "حذف بف للشخصية", "اضافة بف احتفالية", "حذف بف احتفالية", "اضافة بف احتفالية مؤقت", "اضافة بف للمرافق", "حذف بف للمرافق"})
-        Me.comboBufftype.Location = New System.Drawing.Point(37, 50)
+        Me.comboBufftype.Location = New System.Drawing.Point(40, 52)
         Me.comboBufftype.Name = "comboBufftype"
         Me.comboBufftype.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.comboBufftype.OnHoverItemForeColor = System.Drawing.Color.White
@@ -300,7 +300,7 @@ Partial Class StateResource
         Me.comboChars.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.comboChars.ForeColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(173, Byte), Integer))
         Me.comboChars.FormattingEnabled = True
-        Me.comboChars.Location = New System.Drawing.Point(37, 82)
+        Me.comboChars.Location = New System.Drawing.Point(40, 84)
         Me.comboChars.Name = "comboChars"
         Me.comboChars.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.comboChars.OnHoverItemForeColor = System.Drawing.Color.White
@@ -311,7 +311,7 @@ Partial Class StateResource
         '
         Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(273, 84)
+        Me.PictureBox4.Location = New System.Drawing.Point(276, 86)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(24, 24)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -323,7 +323,7 @@ Partial Class StateResource
         Me.lbBufflvl.AutoSize = True
         Me.lbBufflvl.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbBufflvl.ForeColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(173, Byte), Integer))
-        Me.lbBufflvl.Location = New System.Drawing.Point(272, 156)
+        Me.lbBufflvl.Location = New System.Drawing.Point(275, 158)
         Me.lbBufflvl.Name = "lbBufflvl"
         Me.lbBufflvl.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.lbBufflvl.Size = New System.Drawing.Size(54, 15)
@@ -343,7 +343,7 @@ Partial Class StateResource
         Me.comboBuffTime.ForeColor = System.Drawing.Color.FromArgb(CType(CType(251, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(173, Byte), Integer))
         Me.comboBuffTime.FormattingEnabled = True
         Me.comboBuffTime.Items.AddRange(New Object() {"ثواني", "دقائق", "ساعات", "ايام"})
-        Me.comboBuffTime.Location = New System.Drawing.Point(154, 115)
+        Me.comboBuffTime.Location = New System.Drawing.Point(157, 117)
         Me.comboBuffTime.Name = "comboBuffTime"
         Me.comboBuffTime.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.comboBuffTime.OnHoverItemForeColor = System.Drawing.Color.White
@@ -362,7 +362,7 @@ Partial Class StateResource
         Me.txtBuffLv.FocusedForeColor = System.Drawing.Color.White
         Me.txtBuffLv.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.txtBuffLv.ForeColor = System.Drawing.Color.White
-        Me.txtBuffLv.Location = New System.Drawing.Point(37, 150)
+        Me.txtBuffLv.Location = New System.Drawing.Point(40, 152)
         Me.txtBuffLv.Name = "txtBuffLv"
         Me.txtBuffLv.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtBuffLv.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -381,7 +381,7 @@ Partial Class StateResource
         Me.pnlTitle.Dock = System.Windows.Forms.DockStyle.Top
         Me.pnlTitle.Location = New System.Drawing.Point(0, 0)
         Me.pnlTitle.Name = "pnlTitle"
-        Me.pnlTitle.Size = New System.Drawing.Size(349, 31)
+        Me.pnlTitle.Size = New System.Drawing.Size(479, 31)
         Me.pnlTitle.TabIndex = 0
         '
         'lbbufftitle
@@ -408,7 +408,7 @@ Partial Class StateResource
         '
         Me.btnClose.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnClose.Image = CType(resources.GetObject("btnClose.Image"), System.Drawing.Image)
-        Me.btnClose.Location = New System.Drawing.Point(323, 7)
+        Me.btnClose.Location = New System.Drawing.Point(450, 6)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(16, 16)
         Me.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -419,7 +419,7 @@ Partial Class StateResource
         '
         Me.btnMini.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnMini.Image = CType(resources.GetObject("btnMini.Image"), System.Drawing.Image)
-        Me.btnMini.Location = New System.Drawing.Point(296, 7)
+        Me.btnMini.Location = New System.Drawing.Point(423, 6)
         Me.btnMini.Name = "btnMini"
         Me.btnMini.Size = New System.Drawing.Size(16, 16)
         Me.btnMini.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -435,7 +435,7 @@ Partial Class StateResource
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(55, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(351, 635)
+        Me.ClientSize = New System.Drawing.Size(481, 635)
         Me.Controls.Add(Me.pnlBody)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "StateResource"
